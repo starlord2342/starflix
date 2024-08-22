@@ -1,7 +1,7 @@
 body{
     color: white;
     background: rgb(0, 0, 0);
-    margin: 4px;
+    margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
 }
@@ -35,31 +35,12 @@ p{
 
 } 
 
-img {
-    height: 200px;
-  }
-
-
-  .categoria-videos {
-    display: flex;
-  }
-
-  .categoria-videos {
-    display: flex;
-    overflow-x: auto;
-  }
-
   .categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
   }
-  
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
+ 
   .categoria {
     padding-left: 20px;
     padding-right: 20px;
@@ -74,10 +55,6 @@ img {
 .categoria-videos img:hover {
     opacity: 1.0;
     border: 1px solid rgb(128, 0, 128);
-}
-
-.categoria-videos img:hover {
-    opacity: 1.0;
 }
 
 .categoria h2 {
